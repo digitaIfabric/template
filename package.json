@@ -1,0 +1,27 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "This is a live coding template for users of elemaudio and ableton-js",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "elementary index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ableton",
+    "live",
+    "elementary",
+    "audio",
+    "test"
+  ],
+  "author": "Digital Fabric",
+  "license": "ISC",
+  "dependencies": {
+    "@elemaudio/core": "^1.0.3",
+    "@elemaudio/node-renderer-lite": "^1.0.0",
+    "@tonaljs/tonal": "^4.6.5",
+    "ableton-js": "^2.3.4",
+    "chokidar": "^3.5.3"
+  }
+}
